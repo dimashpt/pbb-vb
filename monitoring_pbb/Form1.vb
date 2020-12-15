@@ -1,4 +1,5 @@
-﻿Imports System.Data.Odbc
+﻿'Project PBB Kelompok 5
+Imports System.Data.Odbc
 
 Public Class Form1
 

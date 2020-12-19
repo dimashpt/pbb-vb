@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="monitoring_pbb">
+</Property><Property Name="Solution File" Value="Z:\Acode\desktop\vbnet\pbb\monitoring_pbb.sln">
+</Property><Property Name="Date" Value="Saturday, December 19, 2020">
+</Property><Property Name="Time" Value="18:58 PM">
+</Property></Properties><Event ErrorLevel="0" Project="monitoring_pbb" Source="monitoring_pbb\monitoring_pbb.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="monitoring_pbb" Source="monitoring_pbb\monitoring_pbb.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="monitoring_pbb.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="monitoring_pbb.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="monitoring_pbb" Source="monitoring_pbb\monitoring_pbb.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

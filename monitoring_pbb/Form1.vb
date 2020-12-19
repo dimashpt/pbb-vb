@@ -19,7 +19,7 @@ Public Class Form1
     Sub tampil()
         DataGridView1.Rows.Clear()
         Try
-            da = New OdbcConnection("select * from login order by Id asc", con)
+            da = New OdbcDataAdapter("select * from login order by Id asc", con)
             dt = New DataTable
             da.Fill(dt)
             For Each row In dt.Rows

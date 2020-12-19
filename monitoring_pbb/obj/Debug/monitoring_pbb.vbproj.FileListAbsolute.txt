@@ -1,0 +1,9 @@
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Form1.resources
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Resources.resources
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.vbproj.GenerateResource.Cache
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\bin\Debug\monitoring_pbb.exe
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\bin\Debug\monitoring_pbb.pdb
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\bin\Debug\monitoring_pbb.xml
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.exe
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.xml
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.pdb

@@ -14,7 +14,11 @@
             DR = CMD.ExecuteReader()
 
             If DR.Read = True Then
-                MsgBox("Sukses login!")
+                Dim dialog = MsgBox("Sukses login!", MsgBoxStyle.OkOnly)
+                If (dialog = MsgBoxResult.Ok) Then
+                    Home.Show()
+                    Me.Hide()
+                End If
             Else
                 MsgBox("Username atau password salah!")
                 password = ""

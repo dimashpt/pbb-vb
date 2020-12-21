@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2020 at 12:35 PM
+-- Generation Time: Dec 21, 2020 at 05:55 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.0
 
@@ -88564,6 +88564,15 @@ CREATE TABLE `user` (
   `level` enum('super','admin','operator','') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `username`, `password`, `nama`, `level`) VALUES
+(1, 'super', '1b3231655cebb7a1f783eddf27d254ca', 'Super Administrator', 'super'),
+(2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Administrator', 'admin'),
+(3, 'operator', '4b583376b2767b923c3e1da60d10de59', 'Operator', 'operator');
+
 -- --------------------------------------------------------
 
 --
@@ -88711,7 +88720,7 @@ ALTER TABLE `pembayaran`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Constraints for dumped tables

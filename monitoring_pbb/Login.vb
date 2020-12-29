@@ -6,22 +6,20 @@
 
     Private Sub login()
         Dim username = TextBox1.Text
-        Dim password = Md5(TextBox2.Text)
+        Dim password = TextBox2.Text
 
         Try
-            SQL = "SELECT * FROM user WHERE username='" & username & "' AND password='" & password & "'"
+            SQL = "SELECT * FROM user WHERE username='" & username & "' AND password='" & Md5(password) & "'"
             CMD = New OdbcCommand(SQL, CONN)
             DR = CMD.ExecuteReader()
 
             If DR.Read = True Then
-                Dim dialog = MsgBox("Sukses login!", MsgBoxStyle.OkOnly)
-                If (dialog = MsgBoxResult.Ok) Then
-                    Home.Show()
-                    Me.Hide()
-                End If
+                Home.Show()
+                Me.Hide()
             Else
                 MsgBox("Username atau password salah!")
-                password = ""
+                TextBox2.Text = ""
+                TextBox2.Focus()
             End If
         Catch ex As Exception
             MsgBox("Username atau password salah!")

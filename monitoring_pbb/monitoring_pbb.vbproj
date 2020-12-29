@@ -106,6 +106,12 @@
     <Compile Include="User.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="WP.Designer.vb">
+      <DependentUpon>WP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WP.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Home.resx">
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User.resx">
       <DependentUpon>User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WP.resx">
+      <DependentUpon>WP.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

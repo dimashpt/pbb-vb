@@ -23,7 +23,6 @@
                 MsgBox("Username atau password salah!")
                 password = ""
             End If
-
         Catch ex As Exception
             MsgBox("Username atau password salah!")
         End Try

@@ -36,7 +36,7 @@ Partial Class Login
         Me.Button1.Margin = New System.Windows.Forms.Padding(6)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(252, 52)
-        Me.Button1.TabIndex = 1
+        Me.Button1.TabIndex = 2
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -45,7 +45,7 @@ Partial Class Login
         Me.TextBox1.Location = New System.Drawing.Point(162, 139)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(252, 31)
-        Me.TextBox1.TabIndex = 2
+        Me.TextBox1.TabIndex = 0
         '
         'TextBox2
         '
@@ -53,7 +53,7 @@ Partial Class Login
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox2.Size = New System.Drawing.Size(252, 31)
-        Me.TextBox2.TabIndex = 3
+        Me.TextBox2.TabIndex = 1
         '
         'Label1
         '

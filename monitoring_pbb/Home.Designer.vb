@@ -94,7 +94,7 @@ Partial Class Home
         Me.Label1.Font = New System.Drawing.Font("Cambria", 26.01047!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(582, 186)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(874, 166)
+        Me.Label1.Size = New System.Drawing.Size(867, 162)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Aplikasi Monitoring" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Pajak Bumi dan Bangunan"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter

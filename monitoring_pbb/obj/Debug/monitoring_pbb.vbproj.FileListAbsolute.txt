@@ -8,3 +8,4 @@ Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.xml
 Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.pdb
 Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Login.resources
 Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Home.resources
+Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.User.resources

@@ -1,9 +1,6 @@
-[Bb]in/
-[Oo]bj/
+monitoring_pbb/bin/
+monitoring_pbb/obj/
 !/lib
-monitoring_pbb/Bin/Debug/*
-monitoring_pbb/obj/Debug/*.exe
-monitoring_pbb/obj/Debug/*.pdb
 *.user
 *.suo
 _ReSharper.*

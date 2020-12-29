@@ -8,3 +8,14 @@ Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.xml
 Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.pdb
 Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Login.resources
 Z:\Acode\desktop\vbnet\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Home.resources
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.xml
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\bin\Debug\monitoring_pbb.exe
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\bin\Debug\monitoring_pbb.pdb
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\bin\Debug\monitoring_pbb.xml
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Home.resources
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Login.resources
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Resources.resources
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.vbproj.GenerateResource.Cache
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.exe
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.pdb
+\\HPPC-PC\Users\hp pc\pbb\monitoring_pbb\obj\Debug\monitoring_pbb.Form1.resources

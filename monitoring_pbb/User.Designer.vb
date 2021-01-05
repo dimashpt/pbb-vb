@@ -46,76 +46,85 @@ Partial Class User
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Medium", 18.09424!)
-        Me.Label1.Location = New System.Drawing.Point(335, 40)
+        Me.Label1.Location = New System.Drawing.Point(168, 21)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(405, 61)
+        Me.Label1.Size = New System.Drawing.Size(213, 32)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Management User"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(51, 190)
+        Me.Label2.Location = New System.Drawing.Point(26, 99)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(71, 26)
+        Me.Label2.Size = New System.Drawing.Size(35, 13)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Nama"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(51, 263)
+        Me.Label3.Location = New System.Drawing.Point(26, 137)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(113, 26)
+        Me.Label3.Size = New System.Drawing.Size(55, 13)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Username"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(51, 341)
+        Me.Label4.Location = New System.Drawing.Point(26, 177)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(108, 26)
+        Me.Label4.Size = New System.Drawing.Size(53, 13)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Password"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(51, 419)
+        Me.Label5.Location = New System.Drawing.Point(26, 218)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(64, 26)
+        Me.Label5.Size = New System.Drawing.Size(33, 13)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Level"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(231, 187)
+        Me.TextBox1.Location = New System.Drawing.Point(116, 97)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(320, 31)
+        Me.TextBox1.Size = New System.Drawing.Size(162, 20)
         Me.TextBox1.TabIndex = 5
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(231, 260)
+        Me.TextBox2.Location = New System.Drawing.Point(116, 135)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(320, 31)
+        Me.TextBox2.Size = New System.Drawing.Size(162, 20)
         Me.TextBox2.TabIndex = 6
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(231, 338)
+        Me.TextBox3.Location = New System.Drawing.Point(116, 176)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(320, 31)
+        Me.TextBox3.Size = New System.Drawing.Size(162, 20)
         Me.TextBox3.TabIndex = 7
         '
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Admin", "Operator"})
-        Me.ComboBox1.Location = New System.Drawing.Point(231, 416)
+        Me.ComboBox1.Location = New System.Drawing.Point(116, 216)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(320, 33)
+        Me.ComboBox1.Size = New System.Drawing.Size(162, 21)
         Me.ComboBox1.TabIndex = 8
         '
         'DataGridView1
@@ -123,45 +132,50 @@ Partial Class User
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(56, 630)
+        Me.DataGridView1.Location = New System.Drawing.Point(28, 328)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowTemplate.Height = 33
-        Me.DataGridView1.Size = New System.Drawing.Size(938, 338)
+        Me.DataGridView1.Size = New System.Drawing.Size(469, 176)
         Me.DataGridView1.TabIndex = 9
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(56, 494)
+        Me.Button1.Location = New System.Drawing.Point(28, 257)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(145, 69)
+        Me.Button1.Size = New System.Drawing.Size(72, 36)
         Me.Button1.TabIndex = 10
         Me.Button1.Text = "Tambah"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(231, 494)
+        Me.Button2.Location = New System.Drawing.Point(116, 257)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(145, 69)
+        Me.Button2.Size = New System.Drawing.Size(72, 36)
         Me.Button2.TabIndex = 11
         Me.Button2.Text = "Edit"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(406, 494)
+        Me.Button3.Location = New System.Drawing.Point(203, 257)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(145, 69)
+        Me.Button3.Size = New System.Drawing.Size(72, 36)
         Me.Button3.TabIndex = 12
         Me.Button3.Text = "Hapus"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(849, 494)
+        Me.Button5.Location = New System.Drawing.Point(424, 257)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(145, 69)
+        Me.Button5.Size = New System.Drawing.Size(72, 36)
         Me.Button5.TabIndex = 13
         Me.Button5.Text = "Keluar"
         Me.Button5.UseVisualStyleBackColor = True
@@ -170,34 +184,37 @@ Partial Class User
         '
         Me.TextBox4.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox4.Enabled = False
-        Me.TextBox4.Location = New System.Drawing.Point(231, 121)
+        Me.TextBox4.Location = New System.Drawing.Point(116, 63)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(320, 31)
+        Me.TextBox4.Size = New System.Drawing.Size(162, 20)
         Me.TextBox4.TabIndex = 15
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(51, 124)
+        Me.Label6.Location = New System.Drawing.Point(26, 64)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(34, 26)
+        Me.Label6.Size = New System.Drawing.Size(18, 13)
         Me.Label6.TabIndex = 14
         Me.Label6.Text = "ID"
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(583, 494)
+        Me.Button4.Location = New System.Drawing.Point(292, 257)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(145, 69)
+        Me.Button4.Size = New System.Drawing.Size(72, 36)
         Me.Button4.TabIndex = 16
         Me.Button4.Text = "Batal"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'User
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1058, 1013)
+        Me.ClientSize = New System.Drawing.Size(529, 390)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Label6)
@@ -215,6 +232,7 @@ Partial Class User
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "User"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "User"
